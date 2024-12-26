@@ -1,0 +1,26 @@
+{
+  "name": "insomnia-plugin-password-encrypt",
+  "version": "1.0.0",
+  "description": "Password Encrypt function with RSA support padding with salt",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenodinh/insomnia-plugin-password-encrypt.git"
+  },
+  "author": {
+    "name": "zenodinh",
+    "email": "quandinh33@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenodinh/insomnia-plugin-password-encrypt/issues"
+  },
+  "homepage": "https://github.com/zenodinh/insomnia-plugin-password-encrypt#readme",
+  "insomnia": {
+    "name": "password-encrypt",
+    "description": "insomnia plugin to encrypt password"
+  },
+  "dependencies": {
+    "node-rsa": "^1.1.1"
+  }
+}
