@@ -21,6 +21,6 @@
     "description": "insomnia plugin to encrypt password"
   },
   "dependencies": {
-    "node-rsa": "^1.1.1"
+    "crypto": "^1.0.1"
   }
 }
